@@ -153,7 +153,30 @@ a {
     position: relative;
     left: 10%;
 }
+.second {
+    display: flex;
+}
+.web-left {
+    width: 28rem;
+    height: 18rem;
+    padding: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+#aboutbox p {
+    width: auto;
+    position: relative;
+    left: 3rem;
+    padding: 4%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mar h3
+{
+   color:red
+}
 /* .box:hover {
     /* position: relative;
     left: 20rem; */
@@ -162,31 +185,24 @@ a {
 /* transform: scale(1.02); 
 } */
 
-.img2 {
+/* .img2 {
     position: relative;
     left: 7px;
     padding: 7px;
     width: 50%;
 }
-
+i
 .aboutme {
     display: flex;
     padding: 2rem;
 }
 
-#aboutbox p {
-    width: 60%;
-    position: relative;
-    left: 6rem;
-    padding: 2%;
-    background-color: aquamarine;
-}
 
 .web {
     border-radius: 50%;
     width: 30%;
     height: auto;
-}
+} */
 
 #top1 {
     position: absolute;
@@ -201,13 +217,12 @@ a {
     .info {
         flex-direction: column-reverse
     }
+    .second {
+        flex-direction: column;
+    }
 }
 
 
-.second {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 /* .aboutme{
     display: flex;
