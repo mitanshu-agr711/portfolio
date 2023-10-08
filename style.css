@@ -16,12 +16,8 @@ body{
     /* display: flex;
    /* justify-content: space-around;  */
 }
-.nav
-{
-    display: flex;
-    justify-content: space-around;
-    
-}
+
+
 .hi {
     padding-bottom: 1%;
 }
@@ -55,6 +51,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 7rem;
 
 }
 
@@ -67,11 +64,13 @@ h1 {
     text-decoration: none;
     color: #845EC2;
     transition: all .3s ease-in;
+  
     
 }
 
 .top ul li {
     list-style: none;
+   
 }
 /* #home
 {
@@ -82,6 +81,7 @@ h1 {
 .top {
     display: flex;
     flex-wrap: wrap;
+    z-index: 2;
     justify-content: space-between;
     width: 80%;
     margin: 2rem auto;
@@ -93,7 +93,10 @@ h1 {
     padding: 1rem;
     border-radius: 18px;
     align-items: center;
-   
+    position: fixed; 
+    top: 0%; 
+    transform: translateX(-50%); 
+    left: 50%;
 }
 
 .top ul {
@@ -103,6 +106,21 @@ h1 {
     gap: 2rem;
 
 }
+
+
+/* #info2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+/* .nav
+{
+    display: flex; */
+    /* justify-content: space-around; */
+    /* align-items: center;
+    justify-content: center;
+    
+} */
 
 .t {
     font-family: 'Nunito', sans-serif;
@@ -278,7 +296,13 @@ i
 @media(max-width:1024px) {
     .hero-right img {
         width: 25rem;
+        margin-top: 4rem;
     }
+}
+@media(max-width:450px) {
+    .hero-right img{
+      
+    };
 }
 
 /* @media(max-width:1082px) {
@@ -290,6 +314,7 @@ i
 @media screen and (max-width:768px) {
     .mid p,#aboutbox p{
       font-size: 180%;
+
     }
 }
  .skills
@@ -475,3 +500,10 @@ ul li{
        font-size: 3rem;
     }
 } */
+@media  (min-width:165px) and (max-width:425px) {
+    .info{
+        margin-top:7rem ;
+    }
+    .top{}
+
+}
