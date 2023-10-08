@@ -297,6 +297,7 @@ i
     justify-content: space-evenly;
     /* background: rgb(198,255,221); */
     background: linear-gradient(90deg, rgba(198,255,221,1) 0%, rgba(251,215,134,1) 50%, rgba(246,79,89,1) 100%);
+    width: 100vw;
 }
 
 .html img
@@ -305,6 +306,13 @@ i
     padding: 4%;
     /* border: 2px solid black; */
 }
+.html img:hover
+{ background: rgb(90, 208, 244);
+    background: linear-gradient(318deg, rgb(240, 129, 224) 22%, rgb(92, 220, 246) 100%);
+    transition: all .3s ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
 .css img
 {
     width: 8rem;
@@ -314,6 +322,12 @@ i
     /* border: 2px solid black; */
 
 }
+.css img:hover{
+    background: rgb(90, 208, 244);
+    background: linear-gradient(318deg, rgb(240, 129, 224) 22%, rgb(92, 220, 246) 100%);
+    transition: all .3s ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
 .jss img
 {
     width: 17rem;
@@ -322,10 +336,23 @@ i
     padding: 4%;
     /* border: 2px solid black; */
 }
+.jss img:hover
+{
+    background: rgb(90, 208, 244);
+    background: linear-gradient(318deg, rgb(240, 129, 224) 22%, rgb(92, 220, 246) 100%);
+    transition: all .3s ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
 .C img
 {
     width: 11rem;
 
+}
+.C img:hover{
+    background: rgb(90, 208, 244);
+    background: linear-gradient(318deg, rgb(240, 129, 224) 22%, rgb(92, 220, 246) 100%);
+    transition: all .3s ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 .C{
     padding: 4%;
@@ -337,6 +364,12 @@ i
     right: 19%;
    
 }
+.cp img:hover{
+    background: rgb(90, 208, 244);
+    background: linear-gradient(318deg, rgb(240, 129, 224) 22%, rgb(92, 220, 246) 100%);
+    transition: all .3s ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
 .cp{
     padding: 4%;
     /* border: 2px solid black; */
@@ -346,10 +379,14 @@ i
 .python img
 {
     width: 8rem;
-    position: relative;
-    left: 12%;
-    /* padding: 4%;
-    border: 2px solid black; */
+    left: 6%;
+    padding: 27px;
+}
+.python img:hover{
+    background: rgb(90, 208, 244);
+    background: linear-gradient(318deg, rgb(240, 129, 224) 22%, rgb(92, 220, 246) 100%);
+    transition: all .3s ease-in;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 #lang h3{
     font-weight: bold;
