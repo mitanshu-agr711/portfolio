@@ -33,9 +33,35 @@ h1 {
     padding-bottom: 1%;
 }
 
-.mid c {
+.auto{
     color: rgb(4, 145, 253);
     font-weight: bold;
+}
+.auto:before
+{
+    content: "";
+    position: absolute; 
+    height: 8%;
+    width: 26%;
+    background-color:#ffffff;
+
+    border-left: 2px solid rgb(77, 77, 245);
+    animation:animi 2s linear none infinite normal;
+    
+}
+@keyframes animi
+{
+  from
+  {
+    position:absolute;
+    left:7rem;
+  }
+  to{
+    position:absolute;
+    left:18rem;
+  }
+  
+  
 }
 
 .mid p {
