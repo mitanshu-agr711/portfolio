@@ -37,33 +37,114 @@ h1 {
     color: rgb(4, 145, 253);
     font-weight: bold;
 }
-.auto:before
+/* .auto:before
 {
     content: "";
-    position: absolute; 
+    position: relative; 
     height: 8%;
     width: 26%;
     background-color:#ffffff;
-
     border-left: 2px solid rgb(77, 77, 245);
-    animation:animi 2s linear none infinite normal;
+    animation:animi 4s steps(20) infinite normal;
     
-}
-@keyframes animi
+} */
+/* @keyframes animi
 {
   from
   {
     position:absolute;
-    left:7rem;
+    left:6rem;
   }
   to{
     position:absolute;
     left:18rem;
+    right: 19rem;
   }
-  
-  
+  from
+  { 
+    position:absolute;
+    right: 19rem;
+
+  }  
+} */
+/* @keyframes animi {
+    0% {
+        left: 6rem;
+    }
+    100% {
+        left: 18rem;
+    }
+} */
+#iam
+{
+    display: block;
+}
+.auto:before {
+    content: "";
+    position: absolute;
+    height: 8%;
+    width: 26%;
+    background-color: #ffffff;
+    border-left: 2px solid rgb(77, 77, 245);
+    animation: animi 2s linear infinite alternate; 
+    left: 6rem;
 }
 
+@keyframes animi {
+    0% {
+        left: 6rem;
+    }
+    100% {
+        left: 18rem;
+    }
+}
+@media(min-width:2560px)
+{
+    .auto:before{
+        height: 10%;
+    }
+}
+@media(max-width:2460px)
+{
+    .auto:before
+        {
+            height: 11%;
+        }
+}
+@media(max-width:1224px)
+{
+    .auto:before
+        {
+            height: 7%;
+            width: 33%;
+        }
+}
+@media(max-width:1080px)
+{
+    .auto:before
+        {
+            height: 5%;
+            width:51% ;
+        }
+}
+@media(max-width:720px)
+
+{
+    .auto:before
+        {
+            height: 7%;
+            width:51% ;
+        }
+}
+@media(max-width:534px)
+
+{
+    .auto:before
+        {
+            height: 4%;
+            width:51% ;
+        }
+}
 .mid p {
     padding-top: 1%;
     font-size: larger;
