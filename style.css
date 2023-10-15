@@ -17,6 +17,13 @@ body{
     /* display: flex;
    /* justify-content: space-around;  */
 }
+.myskill{
+    justify-content: center;
+}
+.hello1
+{
+    justify-content: center;
+}
 
 
 .hi {
@@ -28,7 +35,6 @@ h1 {
     font-family: 'Courgette', cursive;
     font-size: 3rem;
 }
-
 .mid span {
     padding-bottom: 1%;
 }
@@ -87,7 +93,7 @@ h1 {
     background-color: #ffffff;
     border-left: 2px solid rgb(77, 77, 245);
     animation: animi 2s linear infinite alternate; 
-    left: 6rem;
+    /* left: 6rem; */
 }
 
 @keyframes animi {
@@ -115,7 +121,7 @@ h1 {
 {
     .auto:before
         {
-            height: 7%;
+            height: 9%;
             width: 33%;
         }
 }
@@ -127,7 +133,7 @@ h1 {
             width:51% ;
         }
 }
-@media(max-width:720px)
+@media(max-width:770px)
 
 {
     .auto:before
@@ -141,8 +147,26 @@ h1 {
 {
     .auto:before
         {
+            height: 5%;
+            width:56% ;
+        }
+}
+@media(max-width:1025px)
+
+{
+    .auto:before
+        {
+            height: 10%;
+            width:56% ;
+        }
+}
+@media(max-width:426px)
+
+{
+    .auto:before
+        {
             height: 4%;
-            width:51% ;
+            width:57% ;
         }
 }
 .mid p {
@@ -160,9 +184,13 @@ h1 {
     justify-content: space-between;
     align-items: center;
     margin-top: 7rem;
-    line-height: 3rem;
+    line-height: 2rem;
 
 }
+.info h1{
+    line-height: 3rem;
+}
+
 
 .top ul li a:hover {
     color: #00C9A7;
@@ -195,7 +223,7 @@ h1 {
     flex-wrap: wrap;
     z-index: 2;
     justify-content: space-between;
-    width: 80%;
+    width: 70%;
     margin: 2rem auto;
     background: rgba(243, 197, 255, 0.57);
     border-radius: 16px;
@@ -208,7 +236,9 @@ h1 {
     position: fixed; 
     top: 0%; 
     transform: translateX(-50%); 
-    left: 50%;
+    left: 45%;
+    overflow-x: hidden;
+    /* justify-content: center; */
     /* line-height: 3rem; */
 }
 
@@ -221,7 +251,7 @@ h1 {
 }
 
 
-/* #info2{
+/* {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -303,25 +333,29 @@ a {
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #aboutbox p {
     width: auto;
     position: relative;
-    left: 3rem;
+    /* : 3rem;left */
     padding: 4%;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-wrap: wrap;
     font-size: larger;
-    line-height: 3rem;
+    line-height: 2rem;
 }
-.mar h3
+.mar 
 {
    color:red;
    font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: larger;
+    display: flex;
+    justify-content: center;
+    /* left:60%; */
 }
 /* .box:hover {
     /* position: relative;
@@ -385,8 +419,9 @@ i
 }
 
 .hero-right img {
-   position: relative;
-   left:5%;
+   /* position: relative;
+   left:5%; */
+   width: 48%;
 }
 
 @media screen and(min-width:1736px) {
@@ -436,7 +471,7 @@ i
     flex-wrap: wrap;
     justify-content: space-evenly;
     /* background: rgb(198,255,221); */
-    background: linear-gradient(90deg, rgba(198,255,221,1) 0%, rgba(251,215,134,1) 50%, rgba(246,79,89,1) 100%);
+    /* background: linear-gradient(90deg, rgba(198,255,221,1) 0%, rgba(251,215,134,1) 50%, rgba(246,79,89,1) 100%); */
     width: 100vw;
 }
 
@@ -519,7 +554,7 @@ i
 .python img
 {
     width: 8rem;
-    left: 6%;
+    /* left: 6%; */
     padding: 27px;
 }
 .python img:hover{
@@ -532,7 +567,7 @@ i
     font-weight: bold;
     font-size: 30px;
     position: relative;
-    left: 14%;
+    /* left: 14%; */
   
 }
 .python
@@ -549,6 +584,8 @@ i
     text-align: center;
     background-color: #c6ffdd;
     border-radius: 5%;
+    display: flex;
+    justify-content: center;
 }
 .firstcont
 {
@@ -588,12 +625,12 @@ ul li{
 .thanks h2{
     margin: 2%;
     padding: 3%;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 .thanks h3 {
     margin: 2%;
     padding: 3%;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 .contact a{
     color: rgb(25, 9, 245);
