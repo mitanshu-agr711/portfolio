@@ -3,6 +3,9 @@
     padding: 0rem;
     /* overflow: hidden; */
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
       overflow-x: hidden;
 }
@@ -328,12 +331,13 @@ a {
     display: flex;
 }
 .web-left {
-    width: 28rem;
+    width: 20rem;
     height: 18rem;
     padding: 2%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border-radius: 50%;
 }
 
 #aboutbox p {
@@ -673,4 +677,15 @@ ul li{
     .hero-right img{
         margin-top: 14rem;
     }
+}
+.copyright
+{  display: flex;
+    justify-content: space-around;
+    background-color: rgb(45, 43, 43);
+    color: #ffffff;
+    padding: 1%;
+    justify-content: space-between;
+}
+.copyright a{
+    color:#ffffff;
 }
