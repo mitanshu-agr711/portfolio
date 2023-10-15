@@ -421,7 +421,7 @@ i
 .hero-right img {
    /* position: relative;
    left:5%; */
-   width: 48%;
+   /* width: 48%; */
 }
 
 @media screen and(min-width:1736px) {
