@@ -265,8 +265,6 @@ p .hi{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: large;
-  
-    
 }
 
 .top ul li {
@@ -302,7 +300,15 @@ p .hi{
     /* justify-content: center; */
     /* line-height: 3rem; */
 }
-
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 494px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 7px auto;
+    border-radius: 11px;}
 .top ul {
     display: flex;
     justify-content: space-between;
@@ -717,8 +723,7 @@ ul li{
     .info{
         margin-top:7rem ;
     }
-    .top{}
-
+    
 }
 @media(max-width:770px){
     .info{
@@ -752,11 +757,22 @@ ul li{
 }
 #tome
 {    display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     height: 100vh;
     /* gap: 2rem; */
+    justify-content: space-around;
+}
+.image123
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: auto;
+    background-color: #3498db;
+    
 }
 .container11
 {
@@ -805,4 +821,36 @@ input[type=submit] {
   
 input[type=submit]:hover {
   background-color: #45a049;
+}
+.boxform
+{
+    border: 2px solid black;
+    padding: 5%;
+    border-radius: 6%;
+}
+.btn
+{
+    background-color:#45a049;
+    padding: 3px;
+}
+@media(max-width:590px)
+{
+    
+.form-group input {
+   
+    width: auto;
+}
+.boxform{
+    width: auto;
+}
+#helloits
+{
+    width:6rem;
+    height:4rem;
+}
+}
+.contactimg
+{
+    width: 70%;
+    height: auto;
 }
